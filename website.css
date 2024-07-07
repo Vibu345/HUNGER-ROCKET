@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color:#f8f9fa;
+    color: #22223b;
+    /* navbar font color */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    size: 60px;
+}
+.fa-solid fa-v{
+    size: 60px;
+}
+
+
+.logo{
+    /* background-image: url("v.png"); */
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.borde{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid #6c757d;
+}
+/* box2 */
+.add-first{
+    color: #9a8c98;
+    font-size: 0.5rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 0.6rem;
+    margin-left: 10px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;/
+    /* for center font to icon */
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#4a4e69;
+    color: black;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.search-select{
+    background-color: #adb5bd;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+.seacrh-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    /* to have clear search view */
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* for magnifine to get in center */
+    font-size: 1.3rem;
+    background-color: #adb5bd;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #0f1111;
+}
+.language{
+    font-size: 0.8rem;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.I{
+    color: orange;
+    font-size: large;
+}
+.N{
+    font-size: large;
+    
+}
+.D{
+    color: green;
+    font-size: large;
+}
+.language{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-search:hover{
+    border: 2.5px solid #212529;
+    /* for orange boundary of search */
+}
+/* box4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-signin{
+    display: flex;
+    align-items: center;/
+}
+/* box5 */
+.nav-cart{
+    font-size: 13px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    
+}
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #ced4da;
+    color: #343a40;
+    display: flex;
+    align-items: center;
+    /* for vertical */
+    justify-content: space-evenly;
+    /* for horizontally eqaual */
+
+}
+.panel-ops p{
+    display: inline;
+    /* for inlining all */
+    justify-content: space-evenly;
+    margin-left: 15px;
+}
+.panel-ops{width: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.panel-deals{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.food{
+    display: inline;
+    /* for inlining all */
+    align-items: center;
+    /* for vertical */
+    justify-content: space-evenly;
+}
+/* hero section */
+.hero-section{
+    background-image: url("CUTE.jpeg");
+    height: 350px;
+    background-size: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    align-items: flex-end;
+
+}
+.hero-msg{
+    background-color: #f8f9fa;
+    color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* #for horiontal; */
+    font-size: 1rem;
+    width: 100%;
+    font-weight: bolder;
+    
+
+
+
+}
+.hero-msg a{
+    color: #343a40;
+
+
+}
+.shop-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#f8f9fa;
+    /* for background img box color */
+    flex-wrap: wrap;
+}
+ .box{
+    height: 400px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: #ced4da;
+    padding: 20px 0px 15px;
+    margin-top: 8px;
+ }
+ .box-img{
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ }
+ .box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #3a0ca3;
+ }
+ .box-content p{
+    color: #7209b7;
+ }
